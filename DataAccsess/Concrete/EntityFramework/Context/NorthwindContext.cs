@@ -11,10 +11,11 @@ namespace DataAccsess.Concrete.EntityFramework.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Northwind;Integrated Security=True");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-GVQPFKA\\SQLSERVER2019;Initial Catalog=Northwind;Integrated Security=True");
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<OperationClaim> OperationClaim { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<UserOperationClaim> UserOperationClaim { get; set; }
