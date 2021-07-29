@@ -30,5 +30,13 @@ namespace Business.Constants
         public static string AuthorizeationDeniedId = "300";
         public static string AuthenticationDenied = "authentication Denied, Please Try Logging In Again";
         public static string AuthenticationDeniedId = "301";
+
+        public static string CategoryAdded = "Category Added";
+        public static string CategoryAddedId = "4000";
+        public static string CategoryDeleted = "Category Deleted";
+        public static string CategoryDeletedId = "4001";
+        public static string CategoryUpdated = "Category Updated";
+        public static string CategoryUpdatedId = "4002";
+
     }
 }
